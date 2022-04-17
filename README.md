@@ -431,7 +431,7 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
 ```json
 {
 
-    "[git-commit]": {"editor.rulers": [48, 72], "workbench.editor.restoreViewState": false},
+    "[git-commit]": {"editor.rulers": [50, 72], "workbench.editor.restoreViewState": false},
 
     "clangd.fallbackFlags": ["-O2", "-Wall", "-Wextra", "-std=c++17"],
 
@@ -439,7 +439,7 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
     "editor.bracketPairColorization.enabled": true,
     "editor.fontFamily": "Fira Mono",
     "editor.renderWhitespace": "all",
-    "editor.rulers": [96, 98],
+    "editor.rulers": [100, 102],
     "editor.scrollBeyondLastLine": false,
     "editor.suggestSelection": "recentlyUsed",
 
@@ -450,7 +450,7 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
     "telemetry.telemetryLevel": "off",
 
     "window.newWindowDimensions": "inherit",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -1.2,
 
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
