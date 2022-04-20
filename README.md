@@ -437,7 +437,9 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
 
     "editor.acceptSuggestionOnEnter": "off",
     "editor.bracketPairColorization.enabled": true,
+    "editor.colorDecorators": false,
     "editor.fontFamily": "Fira Mono",
+    "editor.inlayHints.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.rulers": [100, 102],
     "editor.scrollBeyondLastLine": false,
