@@ -452,7 +452,7 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
     "telemetry.telemetryLevel": "off",
 
     "window.newWindowDimensions": "inherit",
-    "window.zoomLevel": -1.2,
+    "window.zoomLevel": -1.25,
 
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
