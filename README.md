@@ -9,6 +9,9 @@
             - YouTube
         - Utility
             - Google Drive
+    - Developer Tools
+        - Settings > Enabled 1 - 9 ...
+        - Console > Settings > Hide network
     - Install [fonts](https://raw.githubusercontent.com/gmbrianlaw/setup/main/fira_fonts.zip)
 - Finder
     - Install fonts with Font Book
