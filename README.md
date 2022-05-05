@@ -439,7 +439,6 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
     "clangd.fallbackFlags": ["-O2", "-Wall", "-Wextra", "-std=c++17"],
 
     "editor.acceptSuggestionOnEnter": "off",
-    "editor.bracketPairColorization.enabled": true,
     "editor.colorDecorators": false,
     "editor.fontFamily": "Fira Mono",
     "editor.inlayHints.enabled": false,
