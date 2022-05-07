@@ -447,6 +447,11 @@ echo "$(pbpaste)" > '.config/iterm2/themes/One Dark Pro Darker.itermcolors'
     "editor.scrollBeyondLastLine": false,
     "editor.suggestSelection": "recentlyUsed",
 
+    "evenBetterToml.schema.associations": {
+        "^(.*(/|\\\\)\\.?taplo\\.toml|\\.?taplo\\.toml)$": "taplo://taplo.toml",
+        "file:///Users/brianlaw/.config/starship.toml": "https://starship.rs/config-schema.json"
+    },
+
     "explorer.compactFolders": false,
 
     "extensions.ignoreRecommendations": true,
@@ -473,14 +478,33 @@ command_timeout = 10000
 
 continuation_prompt = '[·](fg:bright-white) '
 
-# Space after `$character`
-format = '''
-$directory
-$git_branch$git_commit$git_state$git_status
-$character 
-'''
+format = """
+$directory\
+$line_break\
+$c\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$line_break\
+$character \
+"""
 
 scan_timeout = 1000
+
+[c]
+
+format = "\\[ [$symbol $version]($style) \\]"
+
+commands = [["clang", "--version"]]
+
+detect_extensions = ["c", "cpp", "h", "hpp"]
+
+style = "fg:bright-blue"
+
+symbol = "Clang"
+
+version_format = "$raw"
 
 [character]
 
